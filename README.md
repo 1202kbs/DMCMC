@@ -17,3 +17,15 @@ Our framework is compatible with any choice of MCMC, variance-exploding score mo
 <p align="center">
   <img src="https://github.com/1202kbs/DMCMC/blob/main/assets/celeba.png" />
 </p>
+
+## How to Run This Code
+
+All main experiments of this paper were performed using the code in the `Demo.ipynb` file. To run this code, you should
+
+1. Install required packages,
+2. Create the directory `./exp/ve` and place score model checkpoints in that directory. We used pre-trained NCSN checkpoints provided by Song et al. in [this repository](https://github.com/yang-song/score_sde). Our method is compatible with NCSN models of Kim et al. as well, provided in [this repository](https://github.com/Kim-Dongjun/Soft-Truncation).
+
+## Acknowledgements
+
+- Our code is heavily based on the code of Song et al. in [this repository](https://github.com/yang-song/score_sde).
+- FID in our paper was measured using the code in [this repository](https://github.com/mseitzer/pytorch-fid).

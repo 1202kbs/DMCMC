@@ -9,6 +9,6 @@ We propose a general sampling framework, Denoising MCMC (DMCMC), that combines M
 </p>
 
 <p align="center">
-  <img src="https://github.com/1202kbs/DMCMC/blob/main/assets/1a-min.png" width="100" />
-  <img src="https://github.com/1202kbs/DMCMC/blob/main/assets/1b-min.png" width="100" />
+  <img src="https://github.com/1202kbs/DMCMC/blob/main/assets/1a-min.png" width="400" />
+  <img src="https://github.com/1202kbs/DMCMC/blob/main/assets/1b-min.png" width="400" />
 </p>

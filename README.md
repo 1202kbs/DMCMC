@@ -29,3 +29,16 @@ All main experiments of this paper were performed using the code in the `Demo.ip
 
 - Our code is heavily based on the code of Song et al. in [this repository](https://github.com/yang-song/score_sde).
 - FID in our paper was measured using the code in [this repository](https://github.com/mseitzer/pytorch-fid).
+
+## References
+
+If you find the code useful for your research, please consider citing
+```bib
+@article{
+  kim2022dmcmc,
+  title={Denoising MCMC for Accelerating Diffusion-Based Generative Models},
+  author={Beomsu Kim and Jong Chul Ye},
+  journal={arXiv preprint arXiv:2209.14593},
+  year={2022}
+}
+```

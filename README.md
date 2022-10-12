@@ -24,7 +24,7 @@ Our framework is compatible with any choice of MCMC, variance-exploding score mo
 
 ## How to Run This Code
 
-All main experiments of this paper were performed using the code in the `Demo.ipynb` file. To run this code, you should
+All main experiments of this paper were performed using the code in the `Demo.ipynb` file. To run this code,
 
 1. Install required packages,
 2. Create the directory `./exp/ve` and place score model checkpoints in that directory. We used pre-trained VE NCSN checkpoints provided by Song et al. in [this repository](https://github.com/yang-song/score_sde). Our method is compatible with RVE NCSN models of Kim et al. as well, provided in [this repository](https://github.com/Kim-Dongjun/Soft-Truncation).
